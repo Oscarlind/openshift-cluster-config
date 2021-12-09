@@ -1,2 +1,2 @@
 # openshift-cluster-config
-Setting up and doing Day 2 configurations on OpenShift using ArgoCD
+A simple example of doing Day 2 configurations on OpenShift using ArgoCD
