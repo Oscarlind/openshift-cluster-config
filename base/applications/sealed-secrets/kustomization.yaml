@@ -4,6 +4,7 @@ resources:
 - sealed-secret-namespace.yaml
 - sealed-secrets.yaml
 
+namespace: sealed-secrets
 # Installs sealed-secrets to its own namespace instead of the default "kube-system".
 patchesJson6902:
 - target:
