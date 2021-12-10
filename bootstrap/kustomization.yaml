@@ -3,6 +3,4 @@ kind: Kustomization
 
 resources:
 - cluster-config.yaml
-- ../base/configs/rbac/kustomization.yaml
-- ../base/configs/htpasswd/kustomization.yaml
-- ../base/applications/sealed-secrets/kustomization.yaml
+- cluster-configuration-app.yaml
