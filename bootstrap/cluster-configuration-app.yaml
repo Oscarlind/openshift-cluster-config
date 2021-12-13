@@ -9,7 +9,7 @@ spec:
     server: https://kubernetes.default.svc
   project: cluster-config
   source:
-    path: appOfConfigs
+    path: ./appOfConfigs
     repoURL: https://github.com:Oscarlind/openshift-cluster-config.git
     targetRevision: main
   syncPolicy:
