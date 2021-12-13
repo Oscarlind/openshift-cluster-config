@@ -11,7 +11,7 @@ spec:
   source:
     path: appOfConfigs
     repoURL: https://github.com:Oscarlind/openshift-cluster-config.git
-    targetRevision: main
+    targetRevision: HEAD
   syncPolicy:
     automated:
       prune: false
